@@ -1,4 +1,8 @@
 <!doctype html>
+<!--
+  Auto City privacy policy for version 1.1.0 (online racing). The 1.0.0 version is kept as index-1.0.0.html.
+  Every sentence below is checked against the code in docs/1.1.0-PLAY-PAPERWORK.md (section "Policy claims and where they are true").
+-->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -10,37 +14,95 @@
   h1 { font-size: 2rem; margin: 0 0 4px; } h2 { font-size: 1.2rem; margin-top: 2rem; }
   .meta { color: #4b5a68; margin-bottom: 2rem; }
   a { color: #0B5660; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid #d9cdb6; }
+  th { width: 34%; }
 </style>
 </head>
 <body>
 <main>
   <h1>Auto City Privacy Policy</h1>
-  <p class="meta">Effective 28 October 2026 · Published by MWL Applications</p>
+  <p class="meta">Effective 29 October 2026 · Published by MWL Applications</p>
 
-  <p>Auto City is a garage-building and car-collecting game for Android and the web. This policy explains what the
-  app does with information, which is very little.</p>
+  <p>Auto City is a garage-building and car-collecting game for Android and the web. Version 1.1 adds optional online
+  drag racing. This policy explains what the game does with information in both parts. In short: the garage game
+  collects nothing, and online racing collects only what is needed to run races, and only after you choose to turn it on.</p>
 
-  <h2>What we collect</h2>
-  <p>Nothing. Auto City does not collect, store or transmit personal information. The game has no account, no sign-in,
-  no advertising, no analytics and no in-app purchases in this version. It does not request access to your contacts,
-  location, camera, microphone or files.</p>
+  <h2>The garage game (always offline)</h2>
+  <p>Your game progress (coins, cars, garage layout, settings and the garage name you choose) is saved only on your own
+  device, in the app's private storage or your browser's storage. It is never sent to us or to anyone else. Uninstalling
+  the app or clearing site data deletes it. The Settings screen lets you export your save as a file and import it again;
+  that file goes only where you put it. If you have device backup turned on, Android may include the game's saved data in
+  your Google backup; that is controlled by your phone's settings, not by us. Photo mode draws a picture of your garage and hands it to your device's share
+  sheet; where it goes is your choice, and the app keeps no copy. Practice runs in the Race tab are also offline and
+  send nothing.</p>
 
-  <h2>What stays on your device</h2>
-  <p>Your game progress (coins, cars, garage layout, settings and the garage name you choose) is saved only on your
-  own device, in the app's private storage or your browser's storage. It is never sent to us or to anyone else.
-  Uninstalling the app or clearing site data deletes it. The Settings screen lets you export your save as a file and
-  import it again; that file goes only where you put it.</p>
+  <h2>Online racing (optional, off until you turn it on)</h2>
+  <p>Quick Races, Duels and the Daily Drag Cup need our race server. Nothing is sent to it until you tap
+  <strong>Go online</strong> in the Race tab. If you never do, the app never contacts the server.</p>
+  <p>Once you go online, this is what the server receives and keeps:</p>
+  <table>
+    <tr><th>A random driver ID</th><td>Created by our server for you. It identifies your driver, not you.</td></tr>
+    <tr><th>A random install code, stored only as a one-way hash</th><td>The app makes a random code the first time you go online. The server keeps only a scrambled (hashed) copy, so it can recognise your phone as the same driver next time. It is not your Android ID, advertising ID, phone number or any hardware identifier.</td></tr>
+    <tr><th>A made-up driver name</th><td>For example &ldquo;Bold Otter 221&rdquo;. The server generates it. You cannot type a name, so no personal name or free text is collected.</td></tr>
+    <tr><th>Your race activity</th><td>The car you race with, the wager you choose, the timing of your taps (your reaction and your two gear shifts), the result of each race, coin payouts and refunds the server owes you, and your Duel and Daily Drag Cup entries. A simple count of your races, wins and losses.</td></tr>
+    <tr><th>Rival difficulty and prize counts</th><td>A number that adjusts how hard the computer-controlled Rival is, based on your own recent results, and a count of the daily prize purses you have collected today.</td></tr>
+    <tr><th>Dates</th><td>When your driver was created, when it last connected to the race server, and a time stamp on each race, challenge and cup entry.</td></tr>
+  </table>
+  <p>We do <strong>not</strong> collect your name, email address, phone number, location, contacts, photos, files, advertising ID
+  or any payment information. There is no chat and no way to type anything to another player.</p>
 
-  <h2>Photo mode</h2>
-  <p>Photo mode draws a picture of your garage and hands it to your device's share sheet. Where that picture goes is
-  entirely your choice; the app keeps no copy.</p>
+  <h2>What other players see</h2>
+  <p>Another player can see your made-up driver name, the car you chose and your wager when you post or take a Duel, and
+  your result and run (reaction time, run time and shift quality) when you race them. Any driver who is online can see the Daily Drag Cup
+  bracket, including the made-up names of everyone entered. Computer-controlled opponents are always labelled &ldquo;Rival&rdquo;.</p>
+
+  <h2>Why we use it</h2>
+  <p>To run races and keep them fair: signing your driver back in, replaying your taps on the server to check every
+  result, paying and refunding coins, running the daily cup, and limiting abuse. We do not use it for advertising or
+  analytics, and we do not sell it. The only adaptation is that the computer-controlled Rival&rsquo;s difficulty follows your own recent results.
+  There are no ads, trackers or analytics tools in the game.</p>
+
+  <h2>Who holds it</h2>
+  <p>Our race server and its database are hosted by Railway (railway.com) in the United States. Railway stores and
+  processes the data on our behalf. Like any host, it sees the
+  network address of each connection in order to deliver it. Our server uses that address only in memory, briefly, to
+  keep sign-ups and requests within sensible limits, and does not write it to our database or to our own server logs. Railway may keep
+  ordinary connection logs of its own. Data is sent over an encrypted (HTTPS) connection. We do not share your data with anyone else, except if the law requires it.</p>
+
+  <h2>Coins have no real-world value</h2>
+  <p>Coins in Auto City are play money. They cannot be bought, sold or cashed out in this version, and wagers in
+  races use coins only.</p>
+
+  <h2 id="delete">Deleting your data and how long we keep it</h2>
+  <p>In the Race tab, tap <strong>Delete my racing data</strong> and confirm. This removes your driver name and your driver&rsquo;s link
+  to your phone from our server, withdraws any open challenges, pays you any wagers or winnings still waiting (a cup entry fee is not
+  returned once that cup&rsquo;s registration has closed), clears the sign-in from your phone and turns online racing off again. Your
+  garage and coins stay on your phone.</p>
+  <p>What remains is a record with a generic name (&ldquo;Former driver&rdquo;) and no connection to you or your device. Race results you
+  took part in (the timings, the car and the time) stay attached to that record so other players&rsquo; race history still makes sense, and
+  in your opponents&rsquo; messages about those races your old name is replaced by &ldquo;Former driver&rdquo;. Delivery notes about payouts are removed
+  about a month after your phone has collected them.</p>
+  <p>If you do not delete it yourself, we remove the link to your device and your name automatically once your driver has not connected to
+  the race server for 12 months. If you uninstall the app the server cannot tell, so please delete before you uninstall; otherwise the
+  record is removed after those 12 months. Records of drivers removed for abuse may be kept longer.</p>
+  <p>We cannot look up a person by name or email, because we do not hold either, and driver names are public. If you cannot use the button,
+  email us the <strong>Driver ID</strong> shown under &ldquo;Your online racing data&rdquo; in the Race tab (we need the ID, not the name) and we will delete
+  that driver.</p>
 
   <h2>Children</h2>
-  <p>Auto City is not directed at children under 13 and collects no data from anyone.</p>
+  <p>Auto City is not directed at children under 13 and online racing is meant for people 13 and over. We do not knowingly
+  collect data from children under 13. If you believe a child has used online racing, email us and we will delete the record.</p>
+
+  <h2>Your choices</h2>
+  <p>You can use the whole garage game without ever going online. You can delete your racing data at any time, as above.
+  Depending on where you live you may have further rights over data about you; because we hold only a random ID, we can
+  usually act on a request only for a driver whose ID you can give us, and we will tell you
+  if we cannot.</p>
 
   <h2>Changes</h2>
-  <p>If a future version adds anything that handles personal data (for example optional purchases or an online
-  feature), this policy will be updated before that version is released and the app store listing will say so.</p>
+  <p>If a future version changes what is collected (for example optional purchases), this policy will be updated before that
+  version is released and the store listing will say so.</p>
 
   <h2>Contact</h2>
   <p>MWL Applications · <a href="mailto:markwlamplughjr@gmail.com">markwlamplughjr@gmail.com</a></p>
